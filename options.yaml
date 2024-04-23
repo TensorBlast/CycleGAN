@@ -23,7 +23,7 @@ num_threads: 4  # Default: # threads for loading data
 batch_size: 1  # Default: input batch size
 load_size: 286  # Default: scale images to this size
 crop_size: 256  # Default: then crop to this size
-max_dataset_size: "inf"  # Default: Maximum number of samples allowed per dataset
+max_dataset_size: float("inf")  # Default: Maximum number of samples allowed per dataset
 preprocess: "resize_and_crop"  # Default: scaling and cropping of images at load time
 no_flip: false  # Default: if specified, do not flip the images for data augmentation
 display_winsize: 256  # Default: display window size for both visdom and HTML
